@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP - ChatBot</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Utilisation des mêmes styles que sur la page d'accueil -->
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="ESP Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="presentation.html">Présentation</a></li>
+            <li><a href="formations.html">Formations</a></li>
+            <li><a href="recherche.html">Recherche</a></li>
+            <li><a href="partenariats.html">Partenariats</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="esp-chatbot.html">ChatBot</a></li> <!-- Lien vers la page du chatbot -->
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- Contenu du chatbot -->
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="chat-message received">
+                <p>Salut! Comment puis-je vous aider aujourd'hui?</p>
+            </div>
+            <div class="chat-message sent">
+                <p>Bonjour! J'aimerais en savoir plus sur vos produits.</p>
+            </div>
+            <!-- Ajoutez plus de messages ici -->
+        </div>
+        <label for="user-input"></label><input type="text" id="user-input" placeholder="Type your message...">
+        <button id="send-btn">Send</button>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 École Supérieure Polytechnique. Tous droits réservés.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
